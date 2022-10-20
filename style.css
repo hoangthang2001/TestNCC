@@ -1,0 +1,71 @@
+body {
+  overflow-x:hidden;
+
+}
+#menu ul {
+  position: fixed;
+  background: black;
+  width: 150px;
+  padding: 0px;
+  height: 100%;
+  list-style-type: none;
+  text-align: left;
+}
+#menu li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 1em;
+
+}
+#menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+}
+#menu li:hover {
+  background: #e8e8e8;
+}
+.image{
+    text-align: center;
+
+}
+.chi{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+.all{
+    border: 0px solid #e8e8e8;
+    background:  #e8e8e8;
+    margin-left: 200px;
+    width: 85%;
+    height: 180px;
+    text-align: center;
+
+}
+.c{
+    text-indent: 2em;
+    padding: 5px;
+
+}
+
+.f-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+}
+
+.f-grid-col {
+    flex: 1 0;
+    margin-left: 100px;
+    padding: 50px 0px 0px 100px;
+   
+}
+.pp{
+    font-weight: bold;
+    font-size: 20px;
+}
